@@ -1,0 +1,11 @@
+{
+     "name": "chrome-amazon-pedia",
+     "version": "0.1",
+     "content_scripts": [
+      {
+         "matches": ["*://www.amazon.fr/*", "*://www.amazon.com/*"],
+         "js": ["amazon-pedia.js"],
+         "css": ["amazon-pedia.css"]
+      }
+    ]
+}
