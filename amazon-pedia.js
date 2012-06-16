@@ -6,7 +6,7 @@ function nextElementSibling( el ) {
 
 function lang(url) {
    var extension = (url = url.substr(1 + url.lastIndexOf("/")).split('?')[0]).substr(url.lastIndexOf(".") + 1)
-   return extension === 'com' ? 'en' : extension;
+   return extension === 'com' || extension === 'uk' ? 'en' : extension;
 }
 
 //TODO: Handle querySelectorAll + forEach
