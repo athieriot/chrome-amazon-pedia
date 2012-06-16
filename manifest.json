@@ -1,6 +1,6 @@
 {
      "name": "chrome-ama-pedia",
-     "version": "0.2",
+     "version": "0.3",
      "content_scripts": [
       {
          "matches": ["*://www.amazon.fr/*",
